@@ -1,0 +1,6 @@
+1. Making your website available to the public online
+
+2. Deployment isn't at the very end but second from the end the last part is maintaining and maintenance
+
+3. Heroku, Bluehost, Hostgator, GoDaddy, Hostinger.
+
