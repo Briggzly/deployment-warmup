@@ -22,6 +22,10 @@ app.get('/index.css', (req, res) => {
     rollbar.info('CSS added successfully')
 })
 
+app.get('/', (req, res) => {
+    greeting()
+})
+
 const port = process.env.PORT || 4005
 
 app.use(rollbar.errorHandler())
