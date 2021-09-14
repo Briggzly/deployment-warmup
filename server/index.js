@@ -23,7 +23,7 @@ app.get('/index.css', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    greeting()
+    greeting: () => {}
 })
 
 const port = process.env.PORT || 4005
