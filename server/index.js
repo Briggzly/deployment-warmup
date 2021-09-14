@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
     try {
         helloWorld()
     } catch (error) {
-        rollbar.error(error)
+        rollbar.error('error')
     }
 })
 
