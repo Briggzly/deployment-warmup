@@ -8,6 +8,7 @@ let rollbar = new Rollbar({
   captureUnhandledRejections: true,
 });
 
+const students = []
 const app = express();
 app.use(express.json());
 app.use("/style", express.static("./index.css"));
