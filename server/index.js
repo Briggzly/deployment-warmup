@@ -38,6 +38,7 @@ app.post("/api/student", (req, res) => {
       res.status(200).send(students);
     } else if (name === "") {
       rollbar.error("No name given");
+      rollbar.warning("No name given warning")
       res.status(400).send("must provide a name.");
     } else {
       rollbar.error("student already exists");
