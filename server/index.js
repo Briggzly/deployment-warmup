@@ -23,7 +23,11 @@ app.get('/index.css', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    notMade: () => {}
+    try {
+        helloWorld()
+    } catch (error) {
+        console.error(error)
+    }
 })
 
 const port = process.env.PORT || 4005
